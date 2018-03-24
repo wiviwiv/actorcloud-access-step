@@ -9,7 +9,9 @@ node_modules
 
 # Book build output
 _book
-
+.DS_Store
+.DS_Store/
+.idea/
 # eBook build output
 *.epub
 *.mobi

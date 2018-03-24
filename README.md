@@ -1,3 +1,26 @@
-# My Awesome Book
+*EMQ* actocloud 设备管理平台接入指南
+----
+***EMQ* 设备管理平台 actorcloud** （以下简称 **actorcloud**） 正式上线，访问 [https://www.actorcloud.io](https://www.actorcloud.io/) 可进行功能预览、开发测试。
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+**actorcloud** 是一个综合物联网设备管理平台，平台提供但不限于物联网设备的接入通信功能，同时具备完善的设备连接鉴权、消息存储管理、事件查看与派发，设备反向控制等功能。 用户可以通过 **actorcloud** 对接 ***EMQ X* 消息服务器**进行联网设备的运维管理。
+
+
+
+使用 **actorcloud** 接入开发之前，用户需要从以下方面评估准备：
+
+
+### 接入方式
+
+尽管同一账户下任意接入方式中的设备消息是互通的，但是您需要依据产品需求选择合适的接入方式。
+
+通常使用 SSL/TLS 在带来更高的安全性的同时会降低连接性能，一些设备性能受限只能运行更佳轻量级的 CoAP 客户端，而 WebSocket 被推荐用于浏览器上实时通信。
+
+
+
+### 设备编号
+
+所有接入平台的设备需要录入平台中并且拥有全局唯一的设备编号（MQTT ClientId），请留意某些硬件产品出厂交付时使用了同样的设备编号避免接入失败。
+
+某些场景下，您可以先创建设备，使用平台自动生成设备编号初始化设备以保证其唯一性，通过 REST API 可快速完成相关操作。
+
+> 硬件设备中网卡 MAC 地址具有高度唯一性，可以使用其混合编码生成设备编号。
