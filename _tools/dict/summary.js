@@ -61,6 +61,24 @@ const summary = [
     ],
   },
   {
+    title: '设备控制',
+    path: 'control/control.md',
+    child: [
+      {
+        title: '代理订阅',
+        path: 'control/proxy.md',
+      },
+      {
+        title: '设备控制',
+        path: 'control/device.md',
+      },
+      {
+        title: '分组控制',
+        path: 'control/group.md',
+      },
+    ],
+  },
+  {
     title: '日志与数据',
     path: 'data/data.md',
     child: [
@@ -77,6 +95,10 @@ const summary = [
         path: 'data/downstream.md',
       },
     ],
+  },
+  {
+    title: 'REST API',
+    path: 'rest/rest.md',
   },
 ]
 

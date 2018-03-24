@@ -12,7 +12,7 @@
 
 - 用于消息备案记录，如设备反馈控制效果等需对状态备案查询的应用。
 
-通过 **actorcloud** 提供的 [REST API](../rest/rest.md) 可以方便的过滤获取该部分记录。
+通过 **actorcloud** 提供的 [REST API](https://docs.actorcloud.io/rest/device_info.html) 可以方便的过滤获取该部分记录。
 
 
 ### 查看单个设备上行消息

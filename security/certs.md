@@ -30,16 +30,3 @@
 - 双向认证设备需绑定并使用其匹配证书才能认证成功。
 
 
-### 附：**actorcloud** 支持接入协议
-
-**actorcloud 设备管理平台**支持多种接入协议，以下是对照信息：
-
-| 名称  | 接入地址 | 使用说明 |
-| ------- | ------- | ----|
-| MQTT  | mqtt://actorcloud.io:1883 | 普通 MQTT 接入 |
-| MQTT/SSL  | mqtts://actorcloud.io:8883 | SSL MQTT 接入（单向认证） |
-| MQTT/SSL  | tls://actorcloud.io:8884 | SSL MQTT 接入 （双向认证）|
-| CoAP  | coap://actorcloud.io:5683/mqtt | MQTT/CoAP 接入 |
-| CoAP/DTLS  | coap://actorcloud.io:5684/mqtt | DTLS MQTT/CoAP 接入 |
-| MQTT/WebSocket  | ws://actorcloud.io:8083/mqtt | MQTT/WebSocket 接入 |
-| MQTT/WebSocket/SSL  | wss://actorcloud.io:8084/mqtt | SSL MQTT/WebSocket 接入 |
