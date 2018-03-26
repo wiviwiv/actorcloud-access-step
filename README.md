@@ -1,8 +1,8 @@
 *EMQ* actocloud 设备管理平台接入指南
 ----
-***EMQ* 设备管理平台 actorcloud** （以下简称 **actorcloud**） 正式上线，访问 [https://www.actorcloud.io](https://www.actorcloud.io/) 可进行功能预览、开发测试。
+***EMQ* 设备管理平台 ActorCloud** （以下简称 **ActorCloud**） 正式上线，访问 [https://www.actorcloud.io](https://www.actorcloud.io/) 可进行功能预览、开发测试。
 
-**actorcloud** 是一个综合物联网设备管理平台，平台提供但不限于物联网设备的接入通信功能，同时具备完善的设备连接鉴权、消息存储管理、事件查看与派发，设备反向控制等功能。 用户可以通过 **actorcloud** 对接 ***EMQ X* 消息服务器**进行联网设备的运维管理。
+**ActorCloud** 是一个综合物联网设备管理平台，平台提供但不限于物联网设备的接入通信功能，同时具备完善的设备连接鉴权、消息存储管理、事件查看与派发，设备反向控制等功能。 用户可以通过 **ActorCloud** 对接 ***EMQ X* 消息服务器**进行联网设备的运维管理。
 
 
 
@@ -34,7 +34,7 @@
 通常使用 SSL/TLS 在带来更高的安全性的同时会降低连接性能，一些设备性能受限只能运行更佳轻量级的 CoAP 客户端，而 WebSocket 被推荐用于浏览器上实时通信。
 
 
-##### 附：**actorcloud** 支持接入协议
+##### 附：**ActorCloud** 支持接入协议
 
 | 名称  | 接入地址 | 使用说明 |
 | ------- | ------- | ----|

@@ -1,13 +1,13 @@
 # 单向认证
 
-单向认证用于 MQTT TLS/SSL 通信加密，由客户端验证服务器合法性。
+单向认证用于 MQTT SSL/TLS 通信加密，由客户端验证服务器合法性。
 
-单向认证适用于认证方式为 **Token** 的设备，需要使用 **actorcloud** 根证书 + 设备**编码信息**进行认证。
+单向认证适用于认证方式为 **Token** 的设备，需要使用 **ActorCloud** 根证书 + 设备**编码信息**进行认证。
 
 
 ### 证书下载
 
-- 任意证书详情页中，点击**下载证书**后解压文件，**root_ca.crt** 即为 **actorcloud** 根证书。
+- 任意证书详情页中，点击**下载证书**后解压文件，**root_ca.crt** 即为 **ActorCloud** 根证书。
 
 ![](/images/certs_download.png)
 
@@ -24,7 +24,7 @@ import ssl
 import paho.mqtt.client as mqtt
 import json
 
-# 设备需要在 actorcloud 平台注册
+# 设备需要在 ActorCloud 平台注册
 client_id = '10C61F1A1F40'
 username = '10C61F1A1F40'
 password = 'ce07c199187811e8a12b525440546606'

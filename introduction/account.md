@@ -1,6 +1,6 @@
 # 账户注册
 
-### 注册 actorcloud 账户
+### 注册 ActorCloud 账户
 
 1. 打开[设备管理平台主页](https://www.actorcloud.io/)，如果之前未登陆过平台或者登录信息已过期将会跳转到登录页面。
 2. 点击[前去注册](https://www.actorcloud.io/signup)，根据用户使用身份，完善注册信息，创建一个全新的账户。

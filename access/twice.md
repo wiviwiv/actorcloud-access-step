@@ -1,15 +1,15 @@
 # 双向认证
 
-双向认证用于 MQTT TLS/SSL 通信加密，由客户端验证服务器合法性。
+双向认证用于 MQTT SSL/TLS 通信加密，由客户端验证服务器合法性。
 
-双向认证适用于认证方式为**证书**的设备，需要使用 **actorcloud** 根证书 + 自签名证书，证书密钥进行认证。
+双向认证适用于认证方式为**证书**的设备，需要使用 **ActorCloud** 根证书 + 自签名证书，证书密钥进行认证。
 
 
 ### 证书下载
 
 任意证书详情页中，点击**下载证书**后解压文件得到：
 
-- **root_ca.crt** ： **actorcloud** 根证书；
+- **root_ca.crt** ： **ActorCloud** 根证书；
 - **证书名称.crt** ： 自签名证书；
 - **证书名称.key** ：自签名证书密钥。
 
@@ -30,7 +30,7 @@ import ssl
 import paho.mqtt.client as mqtt
 import json
 
-# 设备需要在 actorcloud 平台注册且认证方式为 "证书"
+# 设备需要在 ActorCloud 平台注册且认证方式为 "证书"
 client_id = '10C61F1A1F41'
 username = '10C61F1A1F41'
 password = '630a7f6b54d75e50a2e59b4baca722d4'

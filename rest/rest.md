@@ -47,5 +47,5 @@ result = urllib2.urlopen(request)
 print(result.read())
 ```
 
-具体 API 列表参考 [EMQ 设备管理平台 actorcloud 使用手册 ： REST API](https://docs.actorcloud.io/rest/rest.html)。
+具体 API 列表参考 [EMQ 设备管理平台 ActorCloud 使用手册 ： REST API](https://docs.actorcloud.io/rest/rest.html)。
 

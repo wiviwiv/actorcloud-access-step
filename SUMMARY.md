@@ -9,7 +9,7 @@
   * [证书集成](security/certs.md)
   * [设备策略](security/policies.md)
 * 接入测试
-  * [MQTT 客户端](access/mqtt.md)
+  * [在线测试](access/mqtt.md)
   * [单向认证](access/single.md)
   * [双向认证](access/twice.md)
 * 设备控制
